@@ -1,4 +1,4 @@
-package pp.exercise;
+package pp.exercise.trade;
 
 public class Application implements SignalHandler {
     public void handleSignal(int signal) {

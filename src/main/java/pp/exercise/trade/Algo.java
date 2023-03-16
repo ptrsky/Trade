@@ -1,4 +1,4 @@
-package pp.exercise;
+package pp.exercise.trade;
 
 class Algo {
     public void doAlgo() {
