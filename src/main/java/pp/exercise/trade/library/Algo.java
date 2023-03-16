@@ -1,6 +1,6 @@
-package pp.exercise.trade;
+package pp.exercise.trade.library;
 
-class Algo {
+public class Algo {
     public void doAlgo() {
         System.out.println("doAlgo");
     }

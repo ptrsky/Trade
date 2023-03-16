@@ -1,5 +1,8 @@
 package pp.exercise.trade;
 
+import pp.exercise.trade.library.Algo;
+import pp.exercise.trade.library.SignalHandler;
+
 public class Application implements SignalHandler {
     public void handleSignal(int signal) {
         Algo algo = new Algo();
