@@ -1,6 +1,5 @@
 package pp.exercise.trade.model;
 
-
 import java.util.List;
 
 public class Instruction {
@@ -28,5 +27,17 @@ public class Instruction {
 
     public void setParts(List<String> parts) {
         this.parts = parts;
+    }
+
+    public String getMethodName() {
+        return parts.get(0);
+    }
+
+    public String getArgument(Integer index) {
+        return parts.get(index);
+    }
+
+    public Integer length() {
+        return parts.size();
     }
 }
