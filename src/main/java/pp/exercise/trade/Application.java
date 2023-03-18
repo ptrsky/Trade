@@ -74,7 +74,7 @@ public class Application implements SignalHandler {
         }
         catch (FileNotFoundException e) {
             System.err.println(e.getMessage());
-            proceduresDefinitions = null;
+            throw new RuntimeException("No configuration file found.");
         }
     }
 }

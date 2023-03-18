@@ -36,8 +36,4 @@ public class Instruction {
     public String getArgument(Integer index) {
         return parts.get(index);
     }
-
-    public Integer length() {
-        return parts.size();
-    }
 }
