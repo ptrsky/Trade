@@ -7,7 +7,7 @@ import pp.exercise.trade.library.SignalHandler;
 
 @RestController
 public class SignalController {
-    private final SignalHandler signalHandler = new Application();
+    private final SignalHandler signalHandler = new Application("src/main/resources/procedures.yaml");
 
     @PostMapping("/trading")
     void processSignal(@RequestBody int signal) {

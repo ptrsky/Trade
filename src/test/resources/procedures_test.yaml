@@ -1,0 +1,23 @@
+# procedure definitions for signal values
+procedures:
+  - signal: 1
+    instructions:
+      - setUp
+      - [ setAlgoParam, 1, 60 ]
+      - performCalc
+      - submitToMarket
+  - signal: 2
+    instructions:
+      - reverse
+      - [ setAlgoParam, 1, 80 ]
+      - submitToMarket
+  - signal: 3
+    instructions:
+      - [ setAlgoParam, 1, 90 ]
+      - [ setAlgoParam, 2, 15 ]
+      - performCalc
+      - submitToMarket
+  - signal: 4
+    instructions:
+      - function1
+      - [ function2, 2 ]
